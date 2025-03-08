@@ -33,3 +33,10 @@ document.addEventListener('DOMContentLoaded', function () {
         }, 5500);
     });
 });
+
+window.addEventListener('load', function () {
+    setTimeout(function () {
+        var audio = document.getElementById('backgroundMusic');
+        audio.play();
+    }, 5000); // 5000 milliseconds = 5 seconds
+});
